@@ -1,7 +1,7 @@
 import { async } from 'regenerator-runtime';
 import { API_URL } from './config.js';
-import { getJSON } from "./helpers.js";
 import { RES_PER_PAGE } from './config.js';
+import { getJSON } from "./helpers.js";
 
 export const state = {
   recipe: {},
@@ -10,11 +10,10 @@ export const state = {
     results: [],
     page: 1,
     resultsPerPage: RES_PER_PAGE,
-  }
+  },
 };
 
-// This function only changes the state object
-// Controller will get the ID to be passed into here
+// This function only changes the state object, controller will get the ID to be passed into here
 export const loadRecipe = async function (id) {
   try {
     const data = await getJSON(`${API_URL}${id}`);
@@ -31,6 +30,7 @@ export const loadRecipe = async function (id) {
       ingredients: recipe.ingredients
     };
     console.log(state.recipe);
+
   } catch (err) {
     console.error(`${err} 🌋`);
     throw err;
@@ -41,7 +41,7 @@ export const loadRecipe = async function (id) {
 export const loadSearchResults = async function (query) {
   try {
     state.search.query = query;
-
+// https://forkify-api.herokuapp.com/api/search
     const data = await getJSON(`${API_URL}?search=${query}`);
     console.log(data);
 

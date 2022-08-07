@@ -1,14 +1,23 @@
 import View from "./View.js";
 import icons from 'url:../../img/icons.svg'; 
-import { Fraction } from 'fractional';
+import {Fraction} from 'fractional';
 
 class RecipeView extends View {
   _parentElement = document.querySelector('.recipe');
   _errorMessage = `Sorry, we could not find that recipe. 😢`;
   _message = '';
-  
+
   addHandlerRender(handler) {
     ['hashchange', 'load'].forEach(ev => window.addEventListener(ev, handler));
+  }
+
+  addHandlerUpdateServings(handler) {
+    this._parentElement.addEventListener('click', function (e) {
+      const btn = e.target.closest('.btn--update-servings');
+      if (!btn) return;
+      const updateTo = +btn.dataset.updateTo;
+      if (+updateTo > 0) handler(+updateTo);
+    });
   }
 
   _generateMarkup() {
@@ -32,18 +41,16 @@ class RecipeView extends View {
           <svg class="recipe__info-icon">
             <use href="${icons}#icon-users"></use>
           </svg>
-          <span class="recipe__info-data recipe__info-data--people">${this._data.servings}
-          </span>
+          <span class="recipe__info-data recipe__info-data--people">${this._data.servings}</span>
           <span class="recipe__info-text">servings</span>
-        </div>
 
         <div class="recipe__info-buttons">
-          <button class="btn--tiny btn--increase-servings">
+          <button class="btn--tiny btn--update-servings" data-update-to="${this._data.servings - 1}">
             <svg>
               <use href="${icons}#icon-minus-circle"></use>
             </svg>
           </button>
-          <button class="btn--tiny btn--increase-servings">
+          <button class="btn--tiny btn--update-servings" data-update-to="${this._data.servings + 1}">
             <svg>
               <use href="${icons}#icon-plus-circle"></use>
             </svg>
@@ -51,7 +58,11 @@ class RecipeView extends View {
         </div>
       </div>
 
-      <div class="recipe__user-generated"></div>
+      <div class="recipe__user-generated">
+        <svg>
+          <use href="${icons}#icon-user"></use>
+        </svg>
+      </div>
         <button class="btn--round">
           <svg class="">
             <use href="${icons}#icon-bookmark-fill"></use>
@@ -63,7 +74,7 @@ class RecipeView extends View {
         <h2 class="heading--2">Recipe ingredients</h2>
         <ul class="recipe__ingredient-list">
           ${this._data.ingredients.map(this._generateMarkupIngredient).join('')}
-      </div>
+        </div>
 
       <div class="recipe__directions">
         <h2 class="heading--2">How to cook it</h2>
