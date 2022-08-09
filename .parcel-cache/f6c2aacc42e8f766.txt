@@ -18,7 +18,7 @@
 136C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\svgo\plugins\moveElemsAttrsToGroup.js133041382886295786 0
 137C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\node-releases\data\processed\envs.json133041382863048357 0
 177C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-main\package.json133041382902729503 0
-96C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\index.html133042784294535957 0
+96C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\index.html133043770859105644 0
 123C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\terser\dist\package.json133041382895306400 0
 137C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\core-js\features\string\code-points.js133041386113117560 0
 117C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\acorn\package.json133041382870400928 0
@@ -76,11 +76,11 @@
 130C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\source-map\lib\binary-search.js133041382870425615 0
 127C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\css-tree\lib\syntax\function133041382907632984 1
 108C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\is-number133041384241138282 1
-106C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\src\js\controller.js133043686869709496 0
+106C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\src\js\controller.js133045419739638027 0
 127C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\@parcel\events\src\errors.js133041382868274380 0
 128C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\@parcel\source-map\index.d.ts133041382899798413 0
 123C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\htmlparser2\package.json133041382869788616 0
-90C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\dist133043689051607219 1
+90C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\dist133045447892130007 1
 107C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\escalade133041382869936689 1
 127C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\core-js\es\symbol\replace.js133041386163059836 0
 126C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\svgo\plugins\removeAttrs.js133041382889637307 0
@@ -175,7 +175,7 @@
 132C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\core-js\stable\typed-array\set.js133041386167318311 0
 140C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\@parcel\core\lib\requests\EntryRequest.js133041382895750370 0
 118C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\core-js\actual\json133041386180422498 1
-101C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\src\js\model.js133042850357578734 0
+101C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\src\js\model.js133043786453315769 0
 138C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\utility-types\dist\utility-types.js.map133041382873477990 0
 151C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\lmdb\node_modules\node-addon-api\tools\conversion.js133041382877472876 0
 135C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\core-js\modules\esnext.map.key-of.js133041386124267032 0
@@ -196,7 +196,7 @@
 129C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\type-fest\source\asyncify.d.ts133041382867074662 0
 115C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\core-js\es\error133041386181349464 1
 154C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\sample-bdb.txt133041382911946163 0
-106C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\src\js\views\View.js133043689049941921 0
+106C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\src\js\views\View.js133045447890474000 0
 126C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\core-js\stable\math\log2.js133041386148958234 0
 116C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\src\js\views\paginationView.js133042749265877669 0
 118C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\htmlparser2\LICENSE133041382861012618 0
@@ -245,7 +245,7 @@
 134C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\core-js\features\queue-microtask.js133041386158709494 0
 115C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\sass\types\value133041384243631622 1
 160C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\@parcel\package-manager\test\fixtures\packages\peers\index.js133041382880863336 0
-102C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\src\js\config.js133042783009752504 0
+102C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\src\js\config.js133043786358816809 0
 108C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\yaml\dist133041382893179354 1
 128C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\source-map-js\source-map.d.ts133041384241986014 0
 126C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\core-js\internals\shared.js133041386167418069 0
@@ -254,14 +254,14 @@
 119C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\msgpackr-extract\bin133041382875113738 1
 119C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\lmdb\src\lmdb-js.cpp133041382899587534 0
 145C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\caniuse-lite\data\features\multibackgrounds.js133041382934312601 0
-103C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\src\js\helpers.js133041930011293333 0
+103C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\src\js\helpers.js133043736901393022 0
 129C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\htmlparser2\lib\Tokenizer.d.ts133041382878398854 0
 98C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\src\js\views133042715734327088 1
 128C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\core-js\full\string\substr.js133041386174435398 0
 131C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\core-js\stable\array\includes.js133041386136398984 0
 159C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\caniuse-lite\data\features\img-naturalwidth-naturalheight.js133041382928383503 0
 140C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\core-js\es\typed-array\find-last-index.js133041386128470260 0
-112C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\src\js\views\recipeView.js133042964790115273 0
+112C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\src\js\views\recipeView.js133043770111882387 0
 147C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\core-js\features\string\virtual\code-point-at.js133041386112997172 0
 138C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\json-parse-even-better-errors\README.md133041382866056594 0
 108C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\svgo\dist133041382896729625 1
@@ -277,7 +277,7 @@
 138C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\core-js\modules\esnext.iterator.take.js133041386124037661 0
 129C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\core-js\full\array\group-by.js133041386134441408 0
 111C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\resolve-from133041382864366024 1
-113C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\src\js\views\resultsView.js133042709021087002 0
+113C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\src\js\views\resultsView.js133043788725706442 0
 125C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\core-js\full\math\iaddh.js133041386135658355 0
 142C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\core-js\internals\define-global-property.js133041386115347141 0
 128C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\core-js\stable\parse-float.js133041386157038958 0
@@ -286,7 +286,7 @@
 129C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\@parcel\core\src\loadDotEnv.js133041382898993397 0
 138C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\core-js\actual\string\virtual\anchor.js133041386108135172 0
 126C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\htmlparser2\lib\Parser.d.ts133041382877578418 0
-112C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\src\js\views\searchView.js133042747902774410 0
+112C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\src\js\views\searchView.js133043779796042170 0
 129C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\core-js\internals\to-object.js133041386178313197 0
 110C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\cosmiconfig133041382884491157 1
 173C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\@parcel\source-map\parcel_sourcemap_wasm\dist-web\parcel_sourcemap_wasm.js133041382876274829 0
@@ -855,7 +855,7 @@
 145C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\lmdb\node_modules\node-addon-api\noexcept.gypi133041382865964278 0
 130C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\caniuse-lite\data\regions\FO.js133041382925611677 0
 136C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\core-js\proposals\object-iteration.js133041386154387776 0
-108C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\dist\index.e37f48ea.js133043689051567312 0
+108C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\dist\index.e37f48ea.js133045447892080120 0
 120C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\mdn-data\package.json133041382876631885 0
 129C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\core-js\stable\instance\map.js133041386150468374 0
 142C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\caniuse-lite\data\features\css-variables.js133041382921918210 0
@@ -7125,7 +7125,7 @@
 144C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\@parcel\runtime-browser-hmr\lib\HMRRuntime.js133041382867546785 0
 121C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\@parcel\runtime-js\src133041382884548605 1
 138C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\@parcel\runtime-js\src\helpers\.babelrc133041382861594078 0
-101C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\dist\index.html133042784298081024 0
+101C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\dist\index.html133043694360461182 0
 186C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser-alias\package.json133041382901265464 0
 144C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\@parcel\packager-js\src\GlobalOutputFormat.js133041382873438096 0
 143C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\@parcel\runtime-js\src\helpers\bundle-url.js133041382868927585 0
@@ -7615,6 +7615,6 @@
 112C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\.bin\svgo.cmd133041382981791503 0
 114C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\node_modules\.bin\terser.cmd133041382981887754 0
 109C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\dist\icons.dfd7a6db.svg133042722321054354 0
-112C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\dist\index.e37f48ea.js.map133043689051598284 0
+112C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\dist\index.e37f48ea.js.map133045447892121118 0
 109C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\dist\index.f7626f62.css133042722317777733 0
 108C:\Users\TranM1\OneDrive - Government of Ontario (1)\Desktop\Coding\repos\forkify-app\dist\logo.726d37a8.png133042722320718960 0

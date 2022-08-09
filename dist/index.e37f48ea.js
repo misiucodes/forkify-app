@@ -549,9 +549,10 @@ const controlRecipes = async function() {
     try {
         // Get id to load recipe that user clicks on side panel
         const id = window.location.hash.slice(1);
-        console.log(id);
         if (!id) return;
         (0, _recipeViewJsDefault.default).renderSpinner();
+        // 0 Update results review to mark selected search result
+        (0, _resultsViewJsDefault.default).update(_modelJs.getSearchResultsPage());
         // 1) Loading recipe
         await _modelJs.loadRecipe(id);
         // 2) Rendering recipe
@@ -569,7 +570,7 @@ const controlSearchResults = async function() {
         // 2) Load search results
         await _modelJs.loadSearchResults(query);
         // 3) Render results
-        (0, _resultsViewJsDefault.default).render(_modelJs.getSearchResultsPage());
+        (0, _resultsViewJsDefault.default).render(_modelJs.getSearchResultsPage()); // only updates text attributes in DOM w/o re-rendering entire view
         // 4) Render initial pagination buttons
         (0, _paginationViewJsDefault.default).render(_modelJs.state.search);
     } catch (err) {
@@ -2825,13 +2826,20 @@ class View {
         this._parentElement.insertAdjacentHTML("afterbegin", markup);
     }
     update(data) {
-        if (!data || Array.isArray(data) && data.length === 0) return this.renderError();
         this._data = data;
         const newMarkup = this._generateMarkup();
         // convert string into a DOM object
         const newDOM = document.createRange().createContextualFragment(newMarkup);
-        const newElements = newDOM.querySelectorAll("*");
-        console.log(newElements);
+        const newElements = Array.from(newDOM.querySelectorAll("*"));
+        const curElements = Array.from(this._parentElement.querySelectorAll("*"));
+        // loop over both arrays to compare both DOM elements
+        newElements.forEach((newEl, i)=>{
+            const curEl = curElements[i];
+            // Updates changed text
+            if (!newEl.isEqualNode(curEl) && newEl.firstChild?.nodeValue.trim() !== "") curEl.textContent = newEl.textContent;
+            // Updates changed attributes
+            if (!newEl.isEqualNode(curEl)) Array.from(newEl.attributes).forEach((attr)=>curEl.setAttribute(attr.name, attr.value));
+        });
     }
     _clear() {
         this._parentElement.innerHTML = "";
@@ -2913,9 +2921,10 @@ class ResultsView extends (0, _viewJsDefault.default) {
         return this._data.map(this._generateMarkupPreview).join("");
     }
     _generateMarkupPreview(results) {
+        const id = window.location.hash.slice(1);
         return `
       <li class="preview">
-        <a class="preview__link" href="#${results.id}">
+        <a class="preview__link ${results.id === id ? "preview__link--active" : ""}" href="#${results.id}">
           <figure class="preview__fig">
             <img src="${results.image}" alt="${results.title}" />
           </figure>

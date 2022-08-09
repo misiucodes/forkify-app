@@ -12,15 +12,27 @@ export default class View {
   }
 
   update(data) {
-    if (!data || (Array.isArray(data) && data.length === 0))  return this.renderError(); 
-
     this._data = data;
+
     const newMarkup = this._generateMarkup();
 
     // convert string into a DOM object
     const newDOM = document.createRange().createContextualFragment(newMarkup); 
-    const newElements = newDOM.querySelectorAll('*');
-    console.log(newElements);
+    const newElements = Array.from(newDOM.querySelectorAll('*'));
+    const curElements = Array.from(this._parentElement.querySelectorAll('*'));
+
+    // loop over both arrays to compare both DOM elements
+    newElements.forEach((newEl, i) => {
+      const curEl = curElements[i];
+
+      // Updates changed text
+      if (!newEl.isEqualNode(curEl) && newEl.firstChild?.nodeValue.trim() !== '') {
+        curEl.textContent = newEl.textContent;
+      }
+      // Updates changed attributes
+      if (!newEl.isEqualNode(curEl)) 
+        Array.from(newEl.attributes).forEach(attr => curEl.setAttribute(attr.name, attr.value));
+    });
   }
 
   _clear() {

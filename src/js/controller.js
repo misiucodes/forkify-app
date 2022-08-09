@@ -12,10 +12,12 @@ const controlRecipes = async function () {
   try {
     // Get id to load recipe that user clicks on side panel
     const id = window.location.hash.slice(1);
-    console.log(id);
     
     if (!id) return;
     recipeView.renderSpinner();
+
+    // 0 Update results review to mark selected search result
+    resultsView.update(model.getSearchResultsPage());
 
     // 1) Loading recipe
     await model.loadRecipe(id);
@@ -40,7 +42,7 @@ const controlSearchResults = async function () {
     await model.loadSearchResults(query);
 
     // 3) Render results
-    resultsView.render(model.getSearchResultsPage());
+    resultsView.render(model.getSearchResultsPage()); // only updates text attributes in DOM w/o re-rendering entire view
 
     // 4) Render initial pagination buttons
     paginationView.render(model.state.search);
